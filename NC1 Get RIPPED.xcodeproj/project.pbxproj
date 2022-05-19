@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD05A649281698CC0054C893 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD05A648281698CC0054C893 /* AppDelegate.swift */; };
+		AD05A64B281698CC0054C893 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD05A64A281698CC0054C893 /* SceneDelegate.swift */; };
+		AD05A64D281698CC0054C893 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD05A64C281698CC0054C893 /* ViewController.swift */; };
+		AD05A650281698CC0054C893 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD05A64E281698CC0054C893 /* Main.storyboard */; };
+		AD05A652281698CD0054C893 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD05A651281698CD0054C893 /* Assets.xcassets */; };
+		AD05A655281698CD0054C893 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD05A653281698CD0054C893 /* LaunchScreen.storyboard */; };
+		AD27ECDF283385DA004FCB4B /* iPhone-13-Wallpaper-4-YTECHB-iDownloadBlog.png in Resources */ = {isa = PBXBuildFile; fileRef = AD27ECDE283385DA004FCB4B /* iPhone-13-Wallpaper-4-YTECHB-iDownloadBlog.png */; };
+		AD27ECE128339EB7004FCB4B /* Frame 17.png in Resources */ = {isa = PBXBuildFile; fileRef = AD27ECE028339EB7004FCB4B /* Frame 17.png */; };
+		AD53F5B8282BAFAE00691592 /* Extension+Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD53F5B7282BAFAE00691592 /* Extension+Double.swift */; };
+		ADB3584B28192B2C0062FAFC /* Calculate.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB3584A28192B2C0062FAFC /* Calculate.swift.swift */; };
+		ADD895E228362EF000BDC86F /* bg app.png in Resources */ = {isa = PBXBuildFile; fileRef = ADD895E128362EF000BDC86F /* bg app.png */; };
+		ADD895E42836325900BDC86F /* on board 1.png in Resources */ = {isa = PBXBuildFile; fileRef = ADD895E32836325900BDC86F /* on board 1.png */; };
+		ADD895E62836348E00BDC86F /* on board 2.png in Resources */ = {isa = PBXBuildFile; fileRef = ADD895E52836348E00BDC86F /* on board 2.png */; };
+		ADD895E82836385B00BDC86F /* on board 3.png in Resources */ = {isa = PBXBuildFile; fileRef = ADD895E72836385B00BDC86F /* on board 3.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD05A645281698CC0054C893 /* NC1 Get RIPPED.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NC1 Get RIPPED.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD05A648281698CC0054C893 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD05A64A281698CC0054C893 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AD05A64C281698CC0054C893 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD05A64F281698CC0054C893 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD05A651281698CD0054C893 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD05A654281698CD0054C893 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD05A656281698CD0054C893 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD27ECDE283385DA004FCB4B /* iPhone-13-Wallpaper-4-YTECHB-iDownloadBlog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPhone-13-Wallpaper-4-YTECHB-iDownloadBlog.png"; path = "../../../../../../Downloads/iPhone-13-Wallpaper-4-YTECHB-iDownloadBlog.png"; sourceTree = "<group>"; };
+		AD27ECE028339EB7004FCB4B /* Frame 17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Frame 17.png"; path = "../../../../../../Downloads/Frame 17.png"; sourceTree = "<group>"; };
+		AD53F5B7282BAFAE00691592 /* Extension+Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Double.swift"; sourceTree = "<group>"; };
+		ADB3584A28192B2C0062FAFC /* Calculate.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculate.swift.swift; sourceTree = "<group>"; };
+		ADD895E128362EF000BDC86F /* bg app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg app.png"; path = "../../../../../../Downloads/bg app.png"; sourceTree = "<group>"; };
+		ADD895E32836325900BDC86F /* on board 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "on board 1.png"; path = "../../../../../../Downloads/on board 1.png"; sourceTree = "<group>"; };
+		ADD895E52836348E00BDC86F /* on board 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "on board 2.png"; path = "../../../../../../Downloads/on board 2.png"; sourceTree = "<group>"; };
+		ADD895E72836385B00BDC86F /* on board 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "on board 3.png"; path = "../../../../../../Downloads/on board 3.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD05A642281698CC0054C893 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD05A63C281698CC0054C893 = {
+			isa = PBXGroup;
+			children = (
+				AD05A647281698CC0054C893 /* NC1 Get RIPPED */,
+				AD05A646281698CC0054C893 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD05A646281698CC0054C893 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD05A645281698CC0054C893 /* NC1 Get RIPPED.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD05A647281698CC0054C893 /* NC1 Get RIPPED */ = {
+			isa = PBXGroup;
+			children = (
+				AD05A648281698CC0054C893 /* AppDelegate.swift */,
+				AD05A64A281698CC0054C893 /* SceneDelegate.swift */,
+				AD05A64C281698CC0054C893 /* ViewController.swift */,
+				ADB3584A28192B2C0062FAFC /* Calculate.swift.swift */,
+				AD05A64E281698CC0054C893 /* Main.storyboard */,
+				AD05A651281698CD0054C893 /* Assets.xcassets */,
+				AD05A653281698CD0054C893 /* LaunchScreen.storyboard */,
+				AD05A656281698CD0054C893 /* Info.plist */,
+				AD53F5B7282BAFAE00691592 /* Extension+Double.swift */,
+				AD27ECDE283385DA004FCB4B /* iPhone-13-Wallpaper-4-YTECHB-iDownloadBlog.png */,
+				AD27ECE028339EB7004FCB4B /* Frame 17.png */,
+				ADD895E128362EF000BDC86F /* bg app.png */,
+				ADD895E32836325900BDC86F /* on board 1.png */,
+				ADD895E52836348E00BDC86F /* on board 2.png */,
+				ADD895E72836385B00BDC86F /* on board 3.png */,
+			);
+			path = "NC1 Get RIPPED";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD05A644281698CC0054C893 /* NC1 Get RIPPED */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD05A659281698CD0054C893 /* Build configuration list for PBXNativeTarget "NC1 Get RIPPED" */;
+			buildPhases = (
+				AD05A641281698CC0054C893 /* Sources */,
+				AD05A642281698CC0054C893 /* Frameworks */,
+				AD05A643281698CC0054C893 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NC1 Get RIPPED";
+			productName = "NC1 Get RIPPED";
+			productReference = AD05A645281698CC0054C893 /* NC1 Get RIPPED.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD05A63D281698CC0054C893 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					AD05A644281698CC0054C893 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = AD05A640281698CC0054C893 /* Build configuration list for PBXProject "NC1 Get RIPPED" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD05A63C281698CC0054C893;
+			productRefGroup = AD05A646281698CC0054C893 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD05A644281698CC0054C893 /* NC1 Get RIPPED */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD05A643281698CC0054C893 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD895E62836348E00BDC86F /* on board 2.png in Resources */,
+				AD05A655281698CD0054C893 /* LaunchScreen.storyboard in Resources */,
+				ADD895E228362EF000BDC86F /* bg app.png in Resources */,
+				AD27ECE128339EB7004FCB4B /* Frame 17.png in Resources */,
+				ADD895E42836325900BDC86F /* on board 1.png in Resources */,
+				AD27ECDF283385DA004FCB4B /* iPhone-13-Wallpaper-4-YTECHB-iDownloadBlog.png in Resources */,
+				AD05A652281698CD0054C893 /* Assets.xcassets in Resources */,
+				ADD895E82836385B00BDC86F /* on board 3.png in Resources */,
+				AD05A650281698CC0054C893 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD05A641281698CC0054C893 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD05A64D281698CC0054C893 /* ViewController.swift in Sources */,
+				ADB3584B28192B2C0062FAFC /* Calculate.swift.swift in Sources */,
+				AD05A649281698CC0054C893 /* AppDelegate.swift in Sources */,
+				AD05A64B281698CC0054C893 /* SceneDelegate.swift in Sources */,
+				AD53F5B8282BAFAE00691592 /* Extension+Double.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD05A64E281698CC0054C893 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD05A64F281698CC0054C893 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD05A653281698CD0054C893 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD05A654281698CD0054C893 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD05A657281698CD0054C893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD05A658281698CD0054C893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD05A65A281698CD0054C893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9C8W395TK6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NC1 Get RIPPED/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LearnADA1.NC1-Get-RIPPED";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD05A65B281698CD0054C893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9C8W395TK6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NC1 Get RIPPED/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LearnADA1.NC1-Get-RIPPED";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD05A640281698CC0054C893 /* Build configuration list for PBXProject "NC1 Get RIPPED" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD05A657281698CD0054C893 /* Debug */,
+				AD05A658281698CD0054C893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD05A659281698CD0054C893 /* Build configuration list for PBXNativeTarget "NC1 Get RIPPED" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD05A65A281698CD0054C893 /* Debug */,
+				AD05A65B281698CD0054C893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD05A63D281698CC0054C893 /* Project object */;
+}
